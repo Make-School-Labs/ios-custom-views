@@ -12,7 +12,8 @@ class ContentView: UIView, SwappableView {
     var swapDelegate: FeedRefreshDelegate?
     
     @IBOutlet weak var tableView: UITableView!
-    let dataSourceItems = [
+    let dataSource = TableViewDataSource<String>()
+    let items = [
         "This",
         "Is",
         "A",
@@ -35,5 +36,18 @@ class ContentView: UIView, SwappableView {
         tableView = loadNib(viewType: UITableView.self)
         addSubview(tableView)
         constrain(to: tableView)
+        setupTable()
+    }
+    
+    func setupTable() {
+        tableView.dataSource = dataSource
+        dataSource.configure = { [unowned self] tv, idx in
+            let cell = UITableViewCell(style: .default, reuseIdentifier: nil)
+            cell.textLabel?.text = self.items[idx.row]
+            return cell
+        }
+        dataSource.items = items
+        tableView.reloadData()
+        
     }
 }
