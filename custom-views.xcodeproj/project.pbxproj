@@ -20,6 +20,8 @@
 		05309E46208FCC70001D0AB0 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05309E45208FCC70001D0AB0 /* UIView+Extensions.swift */; };
 		05309E48208FD043001D0AB0 /* RefreshableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05309E47208FD043001D0AB0 /* RefreshableController.swift */; };
 		05309E4A208FFFA2001D0AB0 /* TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05309E49208FFFA2001D0AB0 /* TableViewDataSource.swift */; };
+		05309E4C20900EA1001D0AB0 /* TargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05309E4B20900EA1001D0AB0 /* TargetView.swift */; };
+		05309E4E20900EAA001D0AB0 /* TargetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05309E4D20900EAA001D0AB0 /* TargetView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		05309E45208FCC70001D0AB0 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		05309E47208FD043001D0AB0 /* RefreshableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshableController.swift; sourceTree = "<group>"; };
 		05309E49208FFFA2001D0AB0 /* TableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDataSource.swift; sourceTree = "<group>"; };
+		05309E4B20900EA1001D0AB0 /* TargetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetView.swift; sourceTree = "<group>"; };
+		05309E4D20900EAA001D0AB0 /* TargetView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TargetView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,8 @@
 				05309E3B208FBD45001D0AB0 /* EmptyState.xib */,
 				05309E41208FC9CA001D0AB0 /* ContentView.swift */,
 				05309E43208FC9D6001D0AB0 /* ContentView.xib */,
+				05309E4B20900EA1001D0AB0 /* TargetView.swift */,
+				05309E4D20900EAA001D0AB0 /* TargetView.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -157,6 +163,7 @@
 				05309E2D208FBB51001D0AB0 /* LaunchScreen.storyboard in Resources */,
 				05309E3C208FBD45001D0AB0 /* EmptyState.xib in Resources */,
 				05309E2A208FBB51001D0AB0 /* Assets.xcassets in Resources */,
+				05309E4E20900EAA001D0AB0 /* TargetView.xib in Resources */,
 				05309E44208FC9D6001D0AB0 /* ContentView.xib in Resources */,
 				05309E28208FBB50001D0AB0 /* Main.storyboard in Resources */,
 			);
@@ -177,6 +184,7 @@
 				05309E48208FD043001D0AB0 /* RefreshableController.swift in Sources */,
 				05309E3F208FC8B2001D0AB0 /* SceneDockViewController.swift in Sources */,
 				05309E23208FBB50001D0AB0 /* AppDelegate.swift in Sources */,
+				05309E4C20900EA1001D0AB0 /* TargetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

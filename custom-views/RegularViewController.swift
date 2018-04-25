@@ -12,7 +12,7 @@ class RegularViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+    
     }
 
 }

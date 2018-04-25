@@ -13,7 +13,7 @@ extension UIView {
     func constrain<U: UIView>(to baseView: U) {
         // Important
         // Tells autolayout not to use autoresizing masks as contraints
-        baseView.translatesAutoresizingMaskIntoConstraints = false
+        translatesAutoresizingMaskIntoConstraints = false
         topAnchor.constraint(equalTo: baseView.topAnchor).isActive = true
         bottomAnchor.constraint(equalTo: baseView.bottomAnchor).isActive = true
         leadingAnchor.constraint(equalTo: baseView.leadingAnchor).isActive = true
